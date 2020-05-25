@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    </link>
+        <title>SpaceLifeGame</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background: #333;
+            }
+            #main {
+                margin-top: 100px;
+                text-align: center;
+            }
+            #espai {
+                background-color: #000;
+                height: 425;
+                width: 650;
+            }
+        </style>
 </head>
-<body>
-    <div>Hola</div>
-    <div id="mapa"></div>
+<body id="all">
+    <img src="fondo.jpg"    id="fondo"    style="display: none;">
+    <img src="lila.jpg"    id="lila"    style="display: none;">
+    <img src="pared.jpg"    id="pared"    style="display: none;">
+
+    
+    <canvas id="espai" width="425" height="650"> </canvas>
 
     <script src="scripts.js"></script> 
 </body>

@@ -105,10 +105,10 @@ var game = new PirateSpaceLife();
 
 game.generarMapaVacio();
 //game.prova();
-//game.imprimirGame();
+game.imprimirGame();
 //game.imprimir();
 
-
+/*
 var app = ( function () {
     var canvas = document.getElementById( 'espai' ),
         context = canvas.getContext( '2d' ),
@@ -132,3 +132,4 @@ var app = ( function () {
 
 
 app.loadPicture();
+*/
